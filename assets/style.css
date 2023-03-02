@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container{
@@ -10,8 +11,14 @@
     text-align: center;
 }
 
-h1, p {
+h1{
+    color: #E53273;
+    font-size: 3em;
     margin: 35px 0;
+}
+
+p {
+    margin-bottom: 70px;
 }
 
 .author{
@@ -19,11 +26,30 @@ h1, p {
     width: 350px;
     height: 100px;
     background-color: black;
-    /* float: left; */
+    float: left;
+    display: inline-block;
 }
+
 
 .author img{
     /* width: 30%; */
     height: 100%;
     float: left;
+}
+
+
+.data{
+    padding-top: 15px;
+    padding-left: 120px;
+    text-align: left;
+    /* float: right; */
+}
+
+.name, .profession, .email{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.name{
+    font-size: bold;
 }
