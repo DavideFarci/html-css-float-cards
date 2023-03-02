@@ -29,11 +29,11 @@ p {
     color: white;
     /* width: 350px; */
     height: 100px;
-    width: calc(100% / 3 - 20px);
+    width: calc(100% / 3 - 26px);
     background-color: black;
     float: left;
     display: inline-block;
-    margin: 10px;
+    margin: 13px;
 }
 
 
