@@ -19,7 +19,7 @@ h1{
 
 p {
     font-weight: 400;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
 }
 
 .photos{
@@ -33,13 +33,22 @@ p {
     background-color: black;
     float: left;
     display: inline-block;
-    margin: 13px;
+    margin: 26px 13px;
+    box-shadow: 0 0 10px 1px rgb(0, 0, 0);
+}
+
+.author:hover{
+    box-shadow: 0 0 10px 1px #E53273;
 }
 
 
 .author img{
     height: 100%;
     float: left;
+}
+
+.imgs:hover{
+    cursor: pointer;
 }
 
 
@@ -56,4 +65,9 @@ p {
 
 .email{
     color: #5e9ea8;
+}
+
+.email:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
