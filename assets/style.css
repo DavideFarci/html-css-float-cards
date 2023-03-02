@@ -3,3 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    margin: auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+h1, p {
+    margin: 35px 0;
+}
+
+.author{
+    color: white;
+    width: 350px;
+    height: 100px;
+    background-color: black;
+    /* float: left; */
+}
+
+.author img{
+    /* width: 30%; */
+    height: 100%;
+    float: left;
+}
