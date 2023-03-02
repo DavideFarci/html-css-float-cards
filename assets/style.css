@@ -21,13 +21,19 @@ p {
     margin-bottom: 70px;
 }
 
+.photos{
+    margin: auto;
+}
+
 .author{
     color: white;
-    width: 350px;
+    /* width: 350px; */
     height: 100px;
+    width: calc(100% / 3 - 20px);
     background-color: black;
     float: left;
     display: inline-block;
+    margin: 10px;
 }
 
 
@@ -50,6 +56,6 @@ p {
     margin-bottom: 5px;
 }
 
-.name{
-    font-size: bold;
+.email{
+    color: #5e9ea8;
 }
