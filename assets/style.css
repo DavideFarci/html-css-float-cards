@@ -18,21 +18,31 @@ h1{
 }
 
 p {
-    font-weight: 400;
+    /* font-weight: 400; */
     margin-bottom: 60px;
 }
 
-/* .photos{
-    margin: auto;
-} */
+
+.clearfix:after{
+    content: "";
+    display: block;        /*devo mettere il clearfix altrimenti il div photos non ha dimensione*/
+    clear: both;
+}
+
+.photos{
+    margin-inline: 13px;
+}
+
+/*in questo caso non mettere il clear non avrebbe causato problemi perchè sotto a photos non c'è nulla ma altrimenti se ci fossero stati degli elementi come anche solo un background color, si sarebbero sovrapposti con gli author*/
 
 .author{
     color: white;
     height: 100px;
     width: calc(100% / 3 - 26px);
+    min-width: 200px;
     background-color: black;
     float: left;
-    display: inline-block;
+    /* display: inline-block; */   /* non si usa se usiamo float*/
     margin: 26px 13px;
     box-shadow: 0 0 10px 1px rgb(0, 0, 0);
 }
@@ -56,10 +66,16 @@ p {
     padding-top: 15px;
     padding-left: 120px;
     text-align: left;
+    /* text-overflow: ellipsis;
+    overflow: hidden */
+}
+
+.name{
+    font-size: 18px;
 }
 
 .name, .profession, .email{
-    display: inline-block;
+    /* display: inline-block; */
     margin-bottom: 5px;
 }
 
